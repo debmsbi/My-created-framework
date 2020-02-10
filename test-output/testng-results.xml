@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-11T00:30:17 IST" name="Default suite" finished-at="2020-02-11T00:30:37 IST" duration-ms="20433">
+    <groups>
+    </groups>
+    <test started-at="2020-02-11T00:30:17 IST" name="Default test" finished-at="2020-02-11T00:30:37 IST" duration-ms="20433">
+      <class name="com.imf.qa.test.imfHomePageTest_with_excel_testdata">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.imf.qa.test.imfHomePageTest_with_excel_testdata@159f197]" started-at="2020-02-11T00:30:17 IST" name="setup" finished-at="2020-02-11T00:30:30 IST" duration-ms="12985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="imfpagetitletest(java.util.Hashtable)[pri:0, instance:com.imf.qa.test.imfHomePageTest_with_excel_testdata@159f197]" started-at="2020-02-11T00:30:30 IST" name="imfpagetitletest" description="imf home page" data-provider="ExcelTestData" finished-at="2020-02-11T00:30:33 IST" duration-ms="3095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestData2=ABOUT, TestData1=International Monetary Fund - Homepage, TestName=imfpagetitletest, TestData6=Iran, Islamic Republic of, TestData5=Indonesia, TestData4=India, TestData3=Iceland}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imfpagetitletest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.imf.qa.test.imfHomePageTest_with_excel_testdata@159f197]" started-at="2020-02-11T00:30:33 IST" name="teardown" finished-at="2020-02-11T00:30:37 IST" duration-ms="4113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.imf.qa.test.imfHomePageTest_with_excel_testdata -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
