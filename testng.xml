@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.imf.qa.test.imfHomePageTest"/>
+      <class name="com.imf.qa.test.imfHomePageTest_with_json_testdata"/>
+      <class name="com.imf.qa.test.mysqldbtest"/>
+      <class name="com.imf.qa.test.imfHomePageTest_with_excel_testdata"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
