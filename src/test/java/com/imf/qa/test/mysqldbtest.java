@@ -23,11 +23,12 @@ public class mysqldbtest {
 
 		Connection con = DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/Qadbt", "root",
 				"debashish123");
-		Statement s = con.createStatement();
 
+		Statement s = con.createStatement();
 		ResultSet res = s.executeQuery("Select * from Employeeinfo where name='ram'");
 
 		while (res.next()) {
+
 			System.out.println(res.getString("id"));
 			System.out.println(res.getString("location"));
 			System.out.println(res.getString("age"));

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.imf.qa.test.imfHomePageTest1">
+      <class name="com.imf.qa.test.redshiftdbtest">
         <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="imfpagetitletest"/>
+          <include name="mysqltest"/>
         </methods>
-      </class> <!-- com.imf.qa.test.imfHomePageTest1 -->
+      </class> <!-- com.imf.qa.test.redshiftdbtest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

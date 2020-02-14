@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 06 21:48:59 IST 2020</td>
+<td>Started on:</td><td>Thu Feb 13 20:27:49 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6556 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18309 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,56 +67,28 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.imf.qa.test.imfHomePageTest.imfpagetitletest()'><b>imfpagetitletest</b><br>Test class: com.imf.qa.test.imfHomePageTest<br>Test method: imf home page</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.NullPointerException
-Caused by: java.lang.NullPointerException
-	at com.imf.qa.util.TestUtil.readTestDataByMethodName(TestUtil.java:101)
-	at com.imf.qa.test.imfHomePageTest.hashdata(imfHomePageTest.java:53)
-	... 20 more
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1884422865", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1884422865'><pre>java.lang.RuntimeException: java.lang.NullPointerException
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at com.imf.qa.util.TestUtil.readTestDataByMethodName(TestUtil.java:101)
-	at com.imf.qa.test.imfHomePageTest.hashdata(imfHomePageTest.java:53)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
-	... 20 more
-</pre></div></td>
+<td title='com.imf.qa.test.imfHomePageTest_with_excel_testdata.imfpagetitletest_excel()'><b>imfpagetitletest_excel</b><br>Test class: com.imf.qa.test.imfHomePageTest_with_excel_testdata<br>Test method: imf home page<br>Parameters: {TestData2=ABOUT, TestData1=International Monetary Fund - Homepage, TestName=imfpagetitletest_excel, TestData6=Iran, Islamic Republic of, TestData5=Indonesia, TestData4=India, TestData3=Iceland}</td>
+<td></td>
+<td>1</td>
+<td>com.imf.qa.test.imfHomePageTest_with_excel_testdata@5136d012</td></tr>
+<tr>
+<td title='com.imf.qa.test.imfHomePageTest_with_json_testdata.imfpagetitletest_json()'><b>imfpagetitletest_json</b><br>Test class: com.imf.qa.test.imfHomePageTest_with_json_testdata<br>Test method: imf home page<br>Parameters: International Monetary Fund - Homepage, ABOUT, Iceland, India, Indonesia, Iran, Islamic Republic of</td>
+<td></td>
+<td>1</td>
+<td>com.imf.qa.test.imfHomePageTest_with_json_testdata@2beee7ff</td></tr>
+<tr>
+<td title='com.imf.qa.test.mysqldbtest.mysqltest()'><b>mysqltest</b><br>Test class: com.imf.qa.test.mysqldbtest<br>Test method: imf home page</td>
+<td></td>
 <td>0</td>
-<td>com.imf.qa.test.imfHomePageTest@132e0cc</td></tr>
+<td>com.imf.qa.test.mysqldbtest@5939a379</td></tr>
 </table><p>
 </body>
 </html>
