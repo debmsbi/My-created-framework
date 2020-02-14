@@ -7,16 +7,13 @@ import java.sql.Statement;
 
 import org.testng.annotations.Test;
 
-public class redshiftdbtest {
+public class redshiftdbtest extends Login {
 
 	@Test(enabled = true, priority = 0, description = "redshift")
 	public void mysqltest() throws Exception {
 
 		// Connection con =DriverManager.getConnection(url, user, password);
 
-		String url = "jdbc:redshift://redshift-qa.foxanalyticsgroup.com:5439/edh?ssl=true";
-		String user = "svc_selenium_poc";
-		String pass = "lti_Fox_@123";
 		Connection con = DriverManager.getConnection(url, user, pass);
 
 		String sql = "select  program_group,  sum(cy_to_sold_dollars_booked) booked,  sum(cy_to_sold_dollars_working) working,"
@@ -29,10 +26,18 @@ public class redshiftdbtest {
 
 		while (res.next()) {
 
-			System.out.println(res.getString("program_group"));
-			System.out.println(res.getString("booked"));
-			System.out.println(res.getString("working"));
-			System.out.println(res.getString("activity"));
+			System.out.println(
+					"Value for program_group column in tablename fox_ai_instrumentation.v_ft_cpw_sales_activity_fact  :  "
+							+ res.getString("program_group"));
+			System.out.println(
+					"Value for booked column in tablename fox_ai_instrumentation.v_ft_cpw_sales_activity_fact  :  "
+							+ res.getString("booked"));
+			System.out.println(
+					"Value for working column in tablename fox_ai_instrumentation.v_ft_cpw_sales_activity_fact  :  "
+							+ res.getString("working"));
+			System.out.println(
+					"Value for activity column in tablename fox_ai_instrumentation.v_ft_cpw_sales_activity_fact  :  "
+							+ res.getString("activity"));
 
 		}
 
