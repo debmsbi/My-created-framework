@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.imf.qa.test.redshiftdbtest">
+      <class name="com.imf.qa.test.memsqldbtest">
         <methods>
-          <include name="mysqltest"/>
+          <include name="memsqltest"/>
         </methods>
-      </class> <!-- com.imf.qa.test.redshiftdbtest -->
+      </class> <!-- com.imf.qa.test.memsqldbtest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

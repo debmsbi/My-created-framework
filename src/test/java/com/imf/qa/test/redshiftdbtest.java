@@ -7,12 +7,10 @@ import java.sql.Statement;
 
 import org.testng.annotations.Test;
 
-public class redshiftdbtest extends Login {
+public class redshiftdbtest extends Loginredshift {
 
-	@Test(enabled = true, priority = 0, description = "redshift")
-	public void mysqltest() throws Exception {
-
-		// Connection con =DriverManager.getConnection(url, user, password);
+	@Test(enabled = true, priority = 0, description = "redshiftdbtest")
+	public void redshifttest() throws Exception {
 
 		Connection con = DriverManager.getConnection(url, user, pass);
 

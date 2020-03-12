@@ -11,19 +11,17 @@ import org.testng.annotations.Test;
 
 import com.imf.qa.base.BaseTest;
 import com.imf.qa.pages.imfHomePage;
-import com.imf.qa.util.Xls_Reader;
 
 public class imfHomePageTest_with_excel_testdata extends BaseTest {
 
 	imfHomePage imfhomepage;
-	Xls_Reader reader;
 
 	@BeforeClass
 	public void setup() throws Exception {
 
+		reportinit();
 		initExcelConnection();
 		initialization();
-
 	}
 
 	@Test(enabled = true, priority = 0, dataProvider = "ExcelTestData", description = "imf home page")

@@ -1,6 +1,6 @@
 package com.imf.qa.test;
 
-public class Login {
+public class Loginredshift {
 
 	// Connection con =DriverManager.getConnection(url, user, password);
 

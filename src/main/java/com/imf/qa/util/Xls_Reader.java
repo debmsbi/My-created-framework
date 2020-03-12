@@ -1,14 +1,13 @@
 package com.imf.qa.util;
 
+import java.util.Hashtable;
 
-import java.util.*;
 import com.codoid.products.exception.FilloException;
 import com.codoid.products.fillo.Connection;
 import com.codoid.products.fillo.Fillo;
 import com.codoid.products.fillo.Recordset;
 
 public class Xls_Reader {
-	
 
 	protected final static String RESOURCES_FOLDER_PATH = "./src/test/resources/";
 	protected final static String PROJECT_TESTCASES_EXCEL_PATH = "./src/test/resources/Test.xlsx";
@@ -21,8 +20,6 @@ public class Xls_Reader {
 	protected static Recordset recordset;
 	protected static Recordset recordsettwo;
 	protected static Hashtable<String, String> testData;
-	
-	
 
 	/**
 	 * This function is to initialize threadSafe fillo connection
@@ -91,7 +88,6 @@ public class Xls_Reader {
 
 	}
 
-
 	/**
 	 * This function is to read test data for the testCases through Excel
 	 * 
@@ -157,8 +153,5 @@ public class Xls_Reader {
 		getThreadSafeFilloConn().close();
 
 	}
-	
-	
-
 
 }

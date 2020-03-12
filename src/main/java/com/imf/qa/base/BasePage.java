@@ -28,10 +28,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 
-
 public class BasePage extends Driver {
-
-	
 
 	protected static Robot robot;
 	protected final static String RESOURCES_FOLDER_PATH = "./src/test/resources/";
@@ -584,13 +581,12 @@ public class BasePage extends Driver {
 				boolean isdeleted = new File(
 						new StringBuffer(RESOURCES_FOLDER_PATH).append(File.separator).append(file).toString())
 								.delete();
-				
+
 			}
 		} else
-			
-		return;
-	}
 
+			return;
+	}
 
 	/**
 	 * Instances of classes that implement this interface are used to filter
