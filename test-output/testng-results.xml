@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-12T16:50:10 IST" name="Default suite" finished-at="2020-03-12T16:50:13 IST" duration-ms="3457">
+  <suite started-at="2020-03-17T23:27:16 IST" name="Default suite" finished-at="2020-03-17T23:28:03 IST" duration-ms="47079">
     <groups>
     </groups>
-    <test started-at="2020-03-12T16:50:10 IST" name="Default test" finished-at="2020-03-12T16:50:13 IST" duration-ms="3457">
-      <class name="com.imf.qa.test.memsqldbtest">
-        <test-method signature="memsqltest()[pri:0, instance:com.imf.qa.test.memsqldbtest@574b560f]" started-at="2020-03-12T16:50:10 IST" name="memsqltest" description="memsqldbtest" finished-at="2020-03-12T16:50:13 IST" duration-ms="3421" status="PASS">
+    <test started-at="2020-03-17T23:27:16 IST" name="Default test" finished-at="2020-03-17T23:28:03 IST" duration-ms="47079">
+      <class name="com.imf.qa.test.redshiftdbtest">
+        <test-method signature="redshifttest()[pri:0, instance:com.imf.qa.test.redshiftdbtest@574b560f]" started-at="2020-03-17T23:27:16 IST" name="redshifttest" description="redshiftdbtest" finished-at="2020-03-17T23:28:03 IST" duration-ms="47037" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- memsqltest -->
-      </class> <!-- com.imf.qa.test.memsqldbtest -->
+        </test-method> <!-- redshifttest -->
+      </class> <!-- com.imf.qa.test.redshiftdbtest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
